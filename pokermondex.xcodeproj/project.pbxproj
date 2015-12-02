@@ -13,6 +13,7 @@
 		D367B4FF1C0FA8D800AD569E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D367B4FE1C0FA8D800AD569E /* Assets.xcassets */; };
 		D367B5021C0FA8D800AD569E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D367B5001C0FA8D800AD569E /* LaunchScreen.storyboard */; };
 		D367B50A1C0FAC3200AD569E /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = D367B5091C0FAC3200AD569E /* pokemon.csv */; };
+		D367B50D1C0FAE5800AD569E /* pokermon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367B50C1C0FAE5800AD569E /* pokermon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D367B5011C0FA8D800AD569E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D367B5031C0FA8D800AD569E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D367B5091C0FAC3200AD569E /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		D367B50C1C0FAE5800AD569E /* pokermon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokermon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D367B4F61C0FA8D700AD569E /* pokermondex */ = {
 			isa = PBXGroup;
 			children = (
+				D367B50B1C0FAE4000AD569E /* MOdel */,
 				D367B4F71C0FA8D700AD569E /* AppDelegate.swift */,
 				D367B4F91C0FA8D700AD569E /* ViewController.swift */,
 				D367B5091C0FAC3200AD569E /* pokemon.csv */,
@@ -65,6 +68,14 @@
 				D367B5031C0FA8D800AD569E /* Info.plist */,
 			);
 			path = pokermondex;
+			sourceTree = "<group>";
+		};
+		D367B50B1C0FAE4000AD569E /* MOdel */ = {
+			isa = PBXGroup;
+			children = (
+				D367B50C1C0FAE5800AD569E /* pokermon.swift */,
+			);
+			name = MOdel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D367B4FA1C0FA8D700AD569E /* ViewController.swift in Sources */,
+				D367B50D1C0FAE5800AD569E /* pokermon.swift in Sources */,
 				D367B4F81C0FA8D700AD569E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
