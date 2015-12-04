@@ -110,7 +110,7 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="y9n-K2-LHz">
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search for pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="y9n-K2-LHz">
                                 <rect key="frame" x="0.0" y="58" width="600" height="44"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
@@ -135,11 +135,42 @@
                     </view>
                     <connections>
                         <outlet property="collection" destination="5zT-2i-dhT" id="UJl-XD-67z"/>
+                        <outlet property="searchBar" destination="y9n-K2-LHz" id="YdM-wS-4ey"/>
+                        <segue destination="3Lb-sg-zZy" kind="show" identifier="PokemonDetailsVC" id="ari-5X-w9c"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14" y="383"/>
+            <point key="canvasLocation" x="-298" y="349"/>
+        </scene>
+        <!--Pokemon DetailsVC View Controller-->
+        <scene sceneID="drl-ve-fKQ">
+            <objects>
+                <viewController id="3Lb-sg-zZy" customClass="PokemonDetailsVCViewController" customModule="pokermondex" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ejj-nL-PMr"/>
+                        <viewControllerLayoutGuide type="bottom" id="ffu-cN-8gl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XxW-KP-H04">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkV-0V-a9H">
+                                <rect key="frame" x="181" y="162" width="192" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5411764979" green="0.87450987099999999" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="FkV-0V-a9H" id="x4l-bI-bEd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="39b-yb-beY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="368" y="349"/>
         </scene>
     </scenes>
     <resources>

@@ -14,11 +14,12 @@
 		D31F03171C11AE7200C6747B /* 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D31F03161C11AE7200C6747B /* 01.mp3 */; };
 		D367B4F81C0FA8D700AD569E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367B4F71C0FA8D700AD569E /* AppDelegate.swift */; };
 		D367B4FA1C0FA8D700AD569E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367B4F91C0FA8D700AD569E /* ViewController.swift */; };
-		D367B4FD1C0FA8D700AD569E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D367B4FB1C0FA8D700AD569E /* Main.storyboard */; };
 		D367B4FF1C0FA8D800AD569E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D367B4FE1C0FA8D800AD569E /* Assets.xcassets */; };
 		D367B5021C0FA8D800AD569E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D367B5001C0FA8D800AD569E /* LaunchScreen.storyboard */; };
 		D367B50A1C0FAC3200AD569E /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = D367B5091C0FAC3200AD569E /* pokemon.csv */; };
 		D367B50D1C0FAE5800AD569E /* pokermon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367B50C1C0FAE5800AD569E /* pokermon.swift */; };
+		D3D86C6F1C12329600E4B3AF /* PokemonDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D86C6E1C12329600E4B3AF /* PokemonDetailsVC.swift */; };
+		D3D86C721C1238A000E4B3AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D86C701C1238A000E4B3AF /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +31,13 @@
 		D367B4F41C0FA8D700AD569E /* pokermondex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokermondex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D367B4F71C0FA8D700AD569E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D367B4F91C0FA8D700AD569E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D367B4FC1C0FA8D700AD569E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D367B4FE1C0FA8D800AD569E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D367B5011C0FA8D800AD569E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D367B5031C0FA8D800AD569E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D367B5091C0FAC3200AD569E /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		D367B50C1C0FAE5800AD569E /* pokermon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokermon.swift; sourceTree = "<group>"; };
+		D3D86C6E1C12329600E4B3AF /* PokemonDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailsVC.swift; sourceTree = "<group>"; };
+		D3D86C711C1238A000E4B3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				D367B4F91C0FA8D700AD569E /* ViewController.swift */,
+				D3D86C6E1C12329600E4B3AF /* PokemonDetailsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -106,11 +109,11 @@
 				D31F03061C11902700C6747B /* view */,
 				D367B4F71C0FA8D700AD569E /* AppDelegate.swift */,
 				D31F030B1C119FA000C6747B /* Util */,
-				D367B4FB1C0FA8D700AD569E /* Main.storyboard */,
 				D367B4FE1C0FA8D800AD569E /* Assets.xcassets */,
 				D31F030E1C11A4C300C6747B /* Pokemon Hollow.ttf */,
 				D31F03101C11A57300C6747B /* Pokemon Solid.ttf */,
 				D31F03161C11AE7200C6747B /* 01.mp3 */,
+				D3D86C701C1238A000E4B3AF /* Main.storyboard */,
 				D367B5001C0FA8D800AD569E /* LaunchScreen.storyboard */,
 				D367B5031C0FA8D800AD569E /* Info.plist */,
 			);
@@ -183,13 +186,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D86C721C1238A000E4B3AF /* Main.storyboard in Resources */,
 				D367B5021C0FA8D800AD569E /* LaunchScreen.storyboard in Resources */,
 				D367B4FF1C0FA8D800AD569E /* Assets.xcassets in Resources */,
 				D31F030F1C11A4C300C6747B /* Pokemon Hollow.ttf in Resources */,
 				D31F03171C11AE7200C6747B /* 01.mp3 in Resources */,
 				D31F03111C11A57300C6747B /* Pokemon Solid.ttf in Resources */,
 				D367B50A1C0FAC3200AD569E /* pokemon.csv in Resources */,
-				D367B4FD1C0FA8D700AD569E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +207,7 @@
 				D367B50D1C0FAE5800AD569E /* pokermon.swift in Sources */,
 				D367B4F81C0FA8D700AD569E /* AppDelegate.swift in Sources */,
 				D31F03081C11905900C6747B /* PokerCell.swift in Sources */,
+				D3D86C6F1C12329600E4B3AF /* PokemonDetailsVC.swift in Sources */,
 				D31F030A1C119F8900C6747B /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,20 +215,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D367B4FB1C0FA8D700AD569E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D367B4FC1C0FA8D700AD569E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D367B5001C0FA8D800AD569E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D367B5011C0FA8D800AD569E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D86C701C1238A000E4B3AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D86C711C1238A000E4B3AF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
