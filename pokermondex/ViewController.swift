@@ -87,7 +87,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         }
     }
 
-    func collectionView(collectionView: UICollectionView, didDeselectItemAtIndexPath indexPath: NSIndexPath) {
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
         let poke: pokermon!
         
@@ -145,8 +145,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             
             collection.reloadData()
         }
+    }
     
-        func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
             if segue.identifier == "PokemonDetailsVC" {
                 if let detailsVC = segue.destinationViewController as? PokemonDetailsVCViewController {
                     if let poke = sender as? pokermon {
@@ -156,7 +158,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 }
             }
         }
-    }
+      
+    
 
 }
 

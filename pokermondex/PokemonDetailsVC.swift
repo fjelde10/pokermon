@@ -11,18 +11,16 @@ import UIKit
 class PokemonDetailsVCViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
+    
     var pokemon: pokermon!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        label!.text = pokemon.name
+        
+    }
     
-        // label.description = pokemon.name
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 
     /*

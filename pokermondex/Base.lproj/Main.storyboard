@@ -146,6 +146,7 @@
         <!--Pokemon DetailsVC View Controller-->
         <scene sceneID="drl-ve-fKQ">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="39b-yb-beY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="3Lb-sg-zZy" customClass="PokemonDetailsVCViewController" customModule="pokermondex" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ejj-nL-PMr"/>
@@ -155,22 +156,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkV-0V-a9H">
-                                <rect key="frame" x="181" y="162" width="192" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pYg-6o-x7u">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="58"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ha3-2U-S6Y">
+                                        <rect key="frame" x="238" y="8" width="123" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="365" id="8tD-43-cDl"/>
+                                            <constraint firstAttribute="height" constant="33" id="FmO-yh-RPw"/>
+                                            <constraint firstAttribute="height" constant="33" id="cpg-r9-fV6"/>
+                                            <constraint firstAttribute="width" constant="365" id="gOp-ah-9xx"/>
+                                            <constraint firstAttribute="width" constant="365" id="rEr-hq-JO7"/>
+                                            <constraint firstAttribute="width" constant="123" id="y75-aF-vF9"/>
+                                            <constraint firstAttribute="height" constant="33" id="yke-bc-qFI"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="8tD-43-cDl"/>
+                                                <exclude reference="FmO-yh-RPw"/>
+                                                <exclude reference="cpg-r9-fV6"/>
+                                                <exclude reference="gOp-ah-9xx"/>
+                                                <exclude reference="rEr-hq-JO7"/>
+                                                <exclude reference="yke-bc-qFI"/>
+                                            </mask>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.91372555489999996" green="0.090196080509999998" blue="0.043137256059999997" alpha="1" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="2ol-0f-rTM"/>
+                                    <constraint firstItem="Ha3-2U-S6Y" firstAttribute="top" secondItem="pYg-6o-x7u" secondAttribute="topMargin" id="OC4-Yr-7py"/>
+                                    <constraint firstItem="Ha3-2U-S6Y" firstAttribute="bottom" secondItem="pYg-6o-x7u" secondAttribute="bottomMargin" id="PYs-Cf-Y9x"/>
+                                    <constraint firstItem="Ha3-2U-S6Y" firstAttribute="centerX" secondItem="pYg-6o-x7u" secondAttribute="centerX" id="iD8-D1-XMU"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="58" id="owH-Sr-QF3"/>
+                                </constraints>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.5411764979" green="0.87450987099999999" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pYg-6o-x7u" firstAttribute="leading" secondItem="XxW-KP-H04" secondAttribute="leading" id="Jz7-gS-mmp"/>
+                            <constraint firstAttribute="trailing" secondItem="pYg-6o-x7u" secondAttribute="trailing" id="pVu-2L-X3H"/>
+                            <constraint firstItem="pYg-6o-x7u" firstAttribute="top" secondItem="XxW-KP-H04" secondAttribute="top" id="vPu-6o-Mml"/>
+                        </constraints>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="redo" id="uc2-XC-HDY"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="label" destination="FkV-0V-a9H" id="x4l-bI-bEd"/>
+                        <outlet property="label" destination="Ha3-2U-S6Y" id="aos-XY-N3D"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="39b-yb-beY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="368" y="349"/>
+            <point key="canvasLocation" x="457" y="368"/>
         </scene>
     </scenes>
     <resources>
