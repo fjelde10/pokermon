@@ -12,6 +12,19 @@ class PokemonDetailsVCViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var mainImg: UIImageView!
+    @IBOutlet weak var desciptionLbl: UILabel!
+    @IBOutlet weak var typeLbl: UILabel!
+    @IBOutlet weak var defenceLbl: UILabel!
+    @IBOutlet weak var hieghtLbl: UILabel!
+    @IBOutlet weak var pokemondexLbl: UILabel!
+    @IBOutlet weak var weightLbl: UILabel!
+    @IBOutlet weak var attackLbl: UILabel!
+    @IBOutlet weak var currentEvoImg: UIImageView!
+    @IBOutlet weak var nextEvoImg: UIImageView!
+    @IBOutlet weak var ecoLbl: UILabel!
+    
+    
     var pokemon: pokermon!
     
     override func viewDidLoad() {
@@ -21,16 +34,10 @@ class PokemonDetailsVCViewController: UIViewController {
         
     }
     
+    @IBAction func backBtnPreesed(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
