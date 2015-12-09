@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D03A55FBFA301D698AFC4D5A /* Pods_pokermondex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E511E255A6A9665FF5D6277F /* Pods_pokermondex.framework */; };
 		D31F03081C11905900C6747B /* PokerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F03071C11905900C6747B /* PokerCell.swift */; };
 		D31F030A1C119F8900C6747B /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F03091C119F8900C6747B /* csv.swift */; };
 		D31F030F1C11A4C300C6747B /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D31F030E1C11A4C300C6747B /* Pokemon Hollow.ttf */; };
 		D31F03111C11A57300C6747B /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D31F03101C11A57300C6747B /* Pokemon Solid.ttf */; };
 		D31F03171C11AE7200C6747B /* 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D31F03161C11AE7200C6747B /* 01.mp3 */; };
+		D33CF12E1C162B2B00238C26 /* constence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33CF12D1C162B2B00238C26 /* constence.swift */; };
 		D367B4F81C0FA8D700AD569E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367B4F71C0FA8D700AD569E /* AppDelegate.swift */; };
 		D367B4FA1C0FA8D700AD569E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367B4F91C0FA8D700AD569E /* ViewController.swift */; };
 		D367B4FF1C0FA8D800AD569E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D367B4FE1C0FA8D800AD569E /* Assets.xcassets */; };
@@ -23,11 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50DF2EA955D3C29626E64A51 /* Pods-pokermondex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokermondex.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokermondex/Pods-pokermondex.release.xcconfig"; sourceTree = "<group>"; };
 		D31F03071C11905900C6747B /* PokerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerCell.swift; sourceTree = "<group>"; };
 		D31F03091C119F8900C6747B /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		D31F030E1C11A4C300C6747B /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
 		D31F03101C11A57300C6747B /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 		D31F03161C11AE7200C6747B /* 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 01.mp3; sourceTree = "<group>"; };
+		D33CF12D1C162B2B00238C26 /* constence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constence.swift; sourceTree = "<group>"; };
 		D367B4F41C0FA8D700AD569E /* pokermondex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokermondex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D367B4F71C0FA8D700AD569E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D367B4F91C0FA8D700AD569E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		D367B50C1C0FAE5800AD569E /* pokermon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokermon.swift; sourceTree = "<group>"; };
 		D3D86C6E1C12329600E4B3AF /* PokemonDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailsVC.swift; sourceTree = "<group>"; };
 		D3D86C711C1238A000E4B3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF0266D0A6C30786E8828434 /* Pods-pokermondex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokermondex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokermondex/Pods-pokermondex.debug.xcconfig"; sourceTree = "<group>"; };
+		E511E255A6A9665FF5D6277F /* Pods_pokermondex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokermondex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,12 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D03A55FBFA301D698AFC4D5A /* Pods_pokermondex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C57E2528E5E96EAA5C87209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E511E255A6A9665FF5D6277F /* Pods_pokermondex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0CD6B03E30895C1A23B347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF0266D0A6C30786E8828434 /* Pods-pokermondex.debug.xcconfig */,
+				50DF2EA955D3C29626E64A51 /* Pods-pokermondex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D31F03061C11902700C6747B /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				D31F03091C119F8900C6747B /* csv.swift */,
+				D33CF12D1C162B2B00238C26 /* constence.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -89,6 +114,8 @@
 			children = (
 				D367B4F61C0FA8D700AD569E /* pokermondex */,
 				D367B4F51C0FA8D700AD569E /* Products */,
+				BD0CD6B03E30895C1A23B347 /* Pods */,
+				3C57E2528E5E96EAA5C87209 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D367B5061C0FA8D800AD569E /* Build configuration list for PBXNativeTarget "pokermondex" */;
 			buildPhases = (
+				CB678CC79027AC0058DB2229 /* Check Pods Manifest.lock */,
 				D367B4F01C0FA8D700AD569E /* Sources */,
 				D367B4F11C0FA8D700AD569E /* Frameworks */,
 				D367B4F21C0FA8D700AD569E /* Resources */,
+				32522FDBC3426D1641CB3A12 /* Embed Pods Frameworks */,
+				02B534F594613AAD8FDA67AB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +228,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02B534F594613AAD8FDA67AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokermondex/Pods-pokermondex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32522FDBC3426D1641CB3A12 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokermondex/Pods-pokermondex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB678CC79027AC0058DB2229 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D367B4F01C0FA8D700AD569E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,6 +286,7 @@
 				D367B4F81C0FA8D700AD569E /* AppDelegate.swift in Sources */,
 				D31F03081C11905900C6747B /* PokerCell.swift in Sources */,
 				D3D86C6F1C12329600E4B3AF /* PokemonDetailsVC.swift in Sources */,
+				D33CF12E1C162B2B00238C26 /* constence.swift in Sources */,
 				D31F030A1C119F8900C6747B /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +398,7 @@
 		};
 		D367B5071C0FA8D800AD569E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0266D0A6C30786E8828434 /* Pods-pokermondex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pokermondex/Info.plist;
@@ -330,6 +410,7 @@
 		};
 		D367B5081C0FA8D800AD569E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50DF2EA955D3C29626E64A51 /* Pods-pokermondex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = pokermondex/Info.plist;

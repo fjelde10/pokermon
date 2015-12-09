@@ -212,7 +212,7 @@
                                                 <rect key="frame" x="116" y="0.0" width="444" height="120"/>
                                                 <string key="text">Pokemon font here refers to the font used in the Pokemon logo. Pokemon is a series of video games first released in 1996 in Japan. The name Pokemon originates from the its Japanese brand name Poketto Monsutā ポケットモンスター , meaning Pocket Monsters. Due to the extreme popularity of the game, it has been merchandised into anime, manga, trading cards, toys, books etc.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -470,9 +470,9 @@
                         <outlet property="attackLbl" destination="7TC-DR-5rj" id="al2-O9-iH8"/>
                         <outlet property="currentEvoImg" destination="yXi-r4-KUU" id="2gj-j9-b1Y"/>
                         <outlet property="defenceLbl" destination="DTQ-1W-12h" id="8wR-Sm-JeP"/>
-                        <outlet property="desciptionLbl" destination="keF-kg-ErP" id="dAY-At-W92"/>
-                        <outlet property="ecoLbl" destination="wd4-VW-e1o" id="F6B-Qj-iCz"/>
-                        <outlet property="hieghtLbl" destination="eOi-wt-UBI" id="QWL-3X-uL4"/>
+                        <outlet property="descriptionLbl" destination="keF-kg-ErP" id="eC2-Hr-lsr"/>
+                        <outlet property="evoLbl" destination="wd4-VW-e1o" id="KuX-Sz-Xse"/>
+                        <outlet property="heightLbl" destination="eOi-wt-UBI" id="L8p-Rn-0cD"/>
                         <outlet property="label" destination="Ha3-2U-S6Y" id="aos-XY-N3D"/>
                         <outlet property="mainImg" destination="z02-BD-T69" id="ktZ-Qs-aeD"/>
                         <outlet property="nextEvoImg" destination="w2r-oU-PIn" id="kCJ-Gb-Tfm"/>
